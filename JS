@@ -1,0 +1,4 @@
+function grid() {
+  const g = document.querySelector(".grid-container");
+  g.classList.toggle("gridRAndColumns");
+}
