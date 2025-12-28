@@ -1,0 +1,27 @@
+body {
+  background-color: lightcyan;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: lightgray;
+  border: solid 2px gray;
+  border-radius: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+.grid-container {
+  display: grid;
+  height: 200px;
+  grid-template-rows: repeat(4, 30px);
+  border: dashed blue 2px;
+}
+.grid-item {
+  background-color: lightblue;
+  border: dashed 2px gold; 
+  text-align: center;
+}
+.gridRAndColumns {
+  grid: 20px 20px / 1fr 3fr;
+}
